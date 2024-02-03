@@ -1,0 +1,1225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    z-index: 1;
+    overflow-x: hidden;
+}
+/* .maroonICO{
+    background-color: maroon;
+} */
+/* Navbar */
+.navbar{
+    background-color: white;
+    width: 100%;
+     /*height: 100%; */
+    top: 0;
+    /* position: fixed; */
+    
+}
+/* .container1{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+} */
+
+.logoWeb{
+    color: blue;
+    width: 50px;
+    height: 40px;
+    margin-top: -1%
+}
+.webName{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,;
+
+}
+.navItemsMargin{
+    margin-left: 575px;
+}
+.navItems1{
+    width: 100%;
+    height: 100%;
+    color: grey;
+    font-weight: bold;
+    font-family: monospace;
+    margin-left: 20px;
+}
+.navItems1:hover{
+    color: blue;
+    cursor: pointer;
+}
+.downClickColor:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+/* Section 1 */
+
+.container2{
+    background:linear-gradient(#00d2ff , #3a7bd5);
+    width: 100%;
+    height: 400px;
+    margin-bottom: 4%;
+    margin-top: -6%;
+}
+.Wrapper{
+    width: 100%;
+    height: 50%;
+    z-index: 999;
+    
+}
+.h1Wrapper{
+    padding-top: 80px;
+    /* padding-left: 60px; */
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+}
+/* .h2Wrapper{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+.pWrapper{
+    text-align: center;
+    font-size: 25px;
+} */
+
+.button2{
+    width: 30%;
+    padding: 15px 20px;
+    border-radius: 10px ;
+    border: none ;
+    background-color: blue ;
+    color: white ;
+    margin-left: 35% ;
+    font-family: arial ;
+    z-index: 999 ;
+    cursor: pointer ;
+    margin-top: 5%;
+}
+.button2:hover{
+    background-color: blue ;
+    cursor: pointer ;
+
+}
+
+/* Section 2 */
+
+.awards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.awardWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.award1{
+    width: 20%;
+    height: 20%;
+    margin-left: 25%;
+}
+.award2{
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+}
+.awardStar{
+    margin-left: 30%;
+    width: 80px;
+    height: 80px;
+}
+.h4AwardWrapper{
+    text-align: center;
+}
+.pAwardWrapper{
+    text-align: center;
+}
+
+/* Section3 */
+
+.popularProducts{
+    width: 100%;
+    height: 100%;
+}
+.h2Popular{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.cardWrappers{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    /* display: flex; */
+}
+
+
+.card1{
+    margin-left: 10%;
+    width: 80%;
+    color: white;
+    height: 680px;
+    border: 2px solid none;
+    padding: 40px;
+    /* margin-left: 1.5%; */
+    margin-bottom: 5%;
+    /* background-color: lightblue; */
+    background:-webkit-linear-gradient(#00d2ff , #3a7bd5);
+    /* transition: transform .1s; */
+
+}
+.card1:hover{
+    transition-duration: 1s;
+    transform: scale(1.1s);
+    cursor: pointer;
+    /* transition-delay: 0.8s;  */
+}
+.card2{
+    margin-left: 10%;
+    width: 80%;
+    height: 580px;
+    border: 2px solid none;
+    padding: 40px;
+    /* margin-left: 1.5%; */
+    margin-bottom: 5%;
+    color: white;
+    /* background-color: lightblue; */
+    background:-webkit-linear-gradient(#00d2ff , #3a7bd5);
+    /* transition: transform .1s; */
+
+}
+.card2:hover{
+    transition-duration: 2s;
+    transform: scale(0.7s);
+    cursor: pointer;
+    /* transition-delay: 0.8s;  */
+}
+.h3CardWrapper{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    height: 4.8rem;
+    line-height: 1;
+    color: white;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pCardWrapper{
+    font-size: 1.9rem;
+    line-height: 1.4;
+    height: 4.8rem;
+    color: white;
+    text-align: center;
+    margin-bottom: -2%;
+}
+.card1B{
+    font-size: 20px;
+    margin-left: 8%;
+    color: white;
+}
+.card1A{
+    font-size: 15px;
+    margin-left: 11%;
+    color: white;
+}
+.button3{
+    margin-left: 69%;
+    margin-top: 1%;
+    width: 30%;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.button3:hover{
+    transform: scale(1.1);
+}
+
+/* Section 4 */
+
+.mainLastSection{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    background-color: rgb(244, 244, 244);
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+
+}
+.pContactWrap{
+    font-size: 14px;
+    text-align: center;
+}
+.contactSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 5%;
+
+}
+.flexCont{
+    display: flex;
+}
+.flexContNum{
+    margin-left: 4%;
+    margin-top: -4%;
+}
+.ContactWrapper{
+    width: 25%;
+    height: 25%;
+    margin-left: 7%;
+}
+/* .h3ContactWrapper{
+} */
+.facebook{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.contactWrapper1{
+    width: 25%;
+    height: 25%;
+    margin-left: 15%;
+}
+.contactWrapper2{
+    width: 25%;
+    height: 25%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.locate{
+    font-size: 20px;
+}
+.location{
+    width: 50px;
+    height: 50px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+/* .products .products__list .list__item.center__item {
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,.24);
+    height: 22rem;
+    margin-inline: -2rem;
+    margin-top: -2rem;
+    z-index: 1;
+} */
+
+
+/* .products .products__list .list__item:not(:nth-last-child(2)):not(.center__item) {
+    border-right: 1px solid #ffdde3;
+} */
+/* @media only screen and(min-width: 270px ) ,(max-height:660px) {
+    .container2{
+        width: 100%;
+        height: 100%;
+    }
+    .h1Wrapper{
+        font-size: 30px;
+    }
+    .button2{
+        width: 100%;
+        font-size: 10px;
+        margin-top: -15%;
+    }
+
+    /* Section 3 
+    .cardWrappers{
+        margin-bottom: 10%;
+        display: block;
+
+    }
+    .card1{
+        width: 20px;
+        height: 298px;
+        margin-bottom: 5%;
+        margin-left: -10%;
+        /* transition: transform .1s; 
+    
+    }
+    .h3CardWrapper{
+        padding-top: 5px;
+        font-size: 1.5rem;
+    }
+    .pCardWrapper{
+        margin-top: -20px;
+
+        font-size: 1rem;    
+        margin-bottom: 0%;
+    }
+    .button3{
+        margin-left: 10%;
+        width: 90%;
+        font-size: 10px;
+        border-radius: 6px;
+    }
+
+} */
+
+@media screen and (max-width: 380px) {
+    /* Navbar */
+    
+    .logoWeb{
+        width: 50px;
+        height: 40px;
+    }
+    .webName{
+        font-size: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,;
+    
+    }
+    .button1{
+        width: 150px;
+        padding: 10px 20px;
+        margin-left: -10px;
+    }
+    .navItemsMargin{
+        margin-left: 20%;
+        }
+        .navItems1{
+            width: 80%;
+
+        }
+    /* Section 1 */
+    .container2{
+        width: 100%;
+        height: 500px;
+        /* margin-top: -4%; */
+    }
+    .button2 {
+        width: 50%;
+        font-size: 15px;
+        /* margin-left: 18%; */
+        margin-left: 2%;
+        margin-top: 5%;
+        /* display: block; */
+        z-index: 2;
+
+    }
+    .Wrapper{
+        width: 100%;
+        height: 20%;
+        z-index: 999;
+        margin-top: -26%;
+    
+    }
+
+    /* Section 2 */
+
+    /* .awardWrapper{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .award1{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+    }
+    .award2{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+    }
+    .awardStar{
+        margin-left: 30%;
+    }
+    .h4AwardWrapper{
+        text-align: center;
+    }
+    .pAwardWrapper{
+        text-align: center;
+    } */
+
+    /* Section 3 */
+
+    .cardWrappers{
+        margin-bottom: 10%;
+        display: block;
+    }
+    .card1{
+        width: 80%;
+        margin-bottom: 5%;
+    
+    }
+    .card2{
+        width: 80%;
+        margin-bottom: 5%;
+    
+    }
+    .card1B{
+        font-size: 10px;
+        margin-left: 8%;
+    }
+    .card1A{
+        font-size: 5px;
+        margin-left: 11%;
+    
+    }
+    .h3CardWrapper{
+        font-size: 1.5rem;
+        margin-bottom: 0%;
+    }
+    .pCardWrapper{
+        font-size: 1rem;
+        margin-bottom: 0%;
+
+
+    }
+    
+    .button3{
+        margin-left: 10%;
+        width: 80%;
+        font-size: 10px;
+        border-radius: 6px;
+    }
+
+    /* Section 4 */
+
+.mainLastSection{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    padding:0px;
+
+}
+.pContactWrap{
+    font-size: 14px;
+    text-align: start;
+    padding: 10px;
+}
+.contactSection{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 5%;
+
+}
+.flexCont{
+    display: flex;
+    margin-left: -8% ;
+}
+.flexContNum{
+    margin-left: 0%; 
+     margin-top: 0%;
+     font-size: 10px;
+     font-weight: none;
+}
+.ContactWrapper{
+    width: 100%;
+    height: 100%;
+    /* margin-left: 7%; */
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.contactWrapper1{
+    width: 100%;
+    margin-left: 15%;
+}
+.contactWrapper2{
+       height: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.locate{
+    font-size: 10px;
+    margin-left: -5%;
+}
+.location{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -18%;
+}
+    .h1ContactWrapper{
+        margin-top: 4%;
+        margin-left: -8%;
+    }
+    .h3ContactWrapper{
+        margin-top: 4%;
+        margin-bottom: -4%;
+    }
+}
+
+@media screen and (max-width:430px) {
+/* Navbar */
+.logoWeb{
+        width: 40px;
+        height: 30px;
+    }
+    .webName{
+        font-size: 22px;    
+    }
+    .button1{
+        width: 150px;
+        margin-left: -10px;
+    }
+    .navItemsMargin{
+        margin-left: 20%;
+        }
+        .navItems1{
+            width: 80%;
+
+        }
+
+    /* Section 1 */
+
+    .container2{
+        width: 100%;
+        height: 450px;    
+        /* margin-top: -4%; */
+    }
+    .Wrapper{
+        width: 100%;
+        height: 50%;
+        z-index: 999;
+        margin-top: -23%;
+    }
+    .button2{
+        width: 70%;
+        font-size: 13px;
+        margin-left: 18%;
+        z-index: 2;
+        /* display: none; */
+    }
+    /* Section 2 */
+
+    /* .awardWrapper{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .award1{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+    }
+    .award2{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+    } */
+    /* Section 3 */
+    
+    .cardWrappers{
+        margin-bottom: 10%;
+        display: block;
+    }
+    .card1{
+        width: 280px;
+        height: 800px;
+        /* margin-bottom: 5%; */
+        margin-left: 8%;
+        /* transition: transform .1s; */
+    
+    }
+
+    .card2{
+        width: 280px;
+        height: 650px;
+        margin-bottom: 5%;
+        margin-left: 8%;
+    
+    }
+    .card1B{
+        font-size: 15px;
+        margin-left: -5%;
+    }
+    .card1A{
+        font-size: 12px;
+        margin-left: 2%;
+    }
+    .h3CardWrapper{
+        padding-top: 5px;
+        font-size: 1.5rem;
+    }
+    .pCardWrapper{
+        margin-top: -20px;
+
+        font-size: 1rem;    
+        margin-bottom: 0%;
+    }
+    .button3{
+        margin-left: 8%;
+        width: 90%;
+        font-size: 10px;
+        border-radius: 6px;
+    }
+
+    /* Section 4 */
+
+.mainLastSection{
+    width: 100%;
+    height: 100%;
+    padding:0px;
+
+}
+.pContactWrap{
+    font-size: 14px;
+    text-align: start;
+    padding: 10px;
+}
+.contactSection{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 5%;
+
+}
+.flexCont{
+    display: flex;
+    margin-left: -8% ;
+
+}
+.flexContNum{
+    margin-left: 0%; 
+     margin-top: 0%;
+     overflow: hidden;
+     font-size: 10px;
+     font-weight: none;
+}
+.ContactWrapper{
+    width: 80%;
+    height: 100%;
+    /* margin-left: 7%; */
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.contactWrapper1{
+    width: 80%;
+    margin-left: 15%;
+}
+.contactWrapper2{
+       height: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.locate{
+    font-size: 10px;
+    margin-left: -2%;
+}
+.location{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -26%;
+}
+    .h1ContactWrapper{
+        margin-top: 4%;
+        margin-left: -8%;
+        font-size: 20px;
+    }
+    .h3ContactWrapper{
+        margin-top: 4%;
+        margin-bottom: -4%;
+    }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 1024px) {
+
+
+    .logoWeb{
+        width: 50px;
+        height: 40px;
+    }
+    .navItems1{
+        font-size: 25px;
+        width: 80%;
+    }
+    .navItemsMargin{
+    margin-left: 30%;
+    }
+    .webName{
+        font-size: 40px;  
+    }
+    .button1{
+        width: 250px;
+        margin-left: -10px;
+    }
+    .container2{
+        width: 100%;
+        height: 400px;
+        /* margin-top: -3%;     */
+    }
+    .Wrapper{
+        width: 100%;
+        height: 50%;
+        z-index: 999;
+        margin-top: -13%;
+    
+    }
+    .button2{
+        width: 70%;
+        font-size: 13px;
+        margin-left: 18%;
+        z-index: 2;
+        /* display: none; */
+    }
+       /* Section 3 */
+
+       .cardWrappers{
+        margin-bottom: 10%;
+        display: block;
+    }
+    .card1{
+        width: 580px;
+        height: 800px;
+        /* margin-bottom: 5%; */
+        margin-left: 13%;
+        /* transition: transform .1s; */
+    
+    }
+
+    .card2{
+        width: 580px;
+        height: 700px;
+        margin-bottom: 5%;
+        margin-left: 13%;
+
+    }
+    .card1B{
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    .card1A{
+        font-size: 15px;
+        margin-left: 11%;
+    }
+    .h3CardWrapper{
+        font-size: 1.5rem;
+    }
+    .pCardWrapper{
+        font-size: 1rem;  
+        margin-bottom: -5%;  
+    }
+    .button3{
+        margin-left: 10%;
+        width: 80%;
+        border-radius: 6px;
+    }
+
+        /* Section 4 */
+
+.mainLastSection{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    padding:0px;
+
+}
+.pContactWrap{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.contactSection{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 5%;
+
+}
+.flexCont{
+    display: flex;
+    margin-left: -8% ;
+
+}
+.flexContNum{
+    margin-left: 0%; 
+     margin-top: 0%;
+     overflow: hidden;
+     font-size: 10px;
+     font-weight: none;
+}
+.ContactWrapper{
+    width: 80%;
+    height: 100%;
+    /* margin-left: 7%; */
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.contactWrapper1{
+    width: 80%;
+    margin-left: 15%;
+}
+.contactWrapper2{
+       height: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.locate{
+    margin-left: 1%;
+    font-size: 20px;
+}
+.location{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: -26%;
+}
+    .h1ContactWrapper{
+        margin-top: 4%;
+        margin-left: -8%;
+        font-size: 30px;
+        margin-bottom: -2%;
+    }
+    .h3ContactWrapper{
+        margin-top: 4%;
+        margin-bottom: -4%;
+        font-size: 30px;
+        margin-bottom: 0%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1030px) {
+    
+    .logoWeb{
+        width: 60px;
+        height: 40px;
+    }
+    .navItems1 {
+        font-size:20px;
+        
+        margin-left: -40px;
+    }
+    .analysis{
+        font-size: 20px;
+        width: 250px;
+    }
+    .analysis1{
+        font-size: 20px;
+        /* width: 200px;     */
+
+    }
+    .navItemsMargin{
+        width: 100%;
+        margin-left: 400px;
+    }
+    .webName{
+        font-size: 30px;  
+    }
+    /* .button1{
+        width: 150px;
+        margin-left: 10px;
+    } */
+    .container2{
+        width: 100%;
+        height: 430px;
+        /* margin-top: 2%;*/
+    }
+    .Wrapper{
+        margin-top: -8%;
+        padding-top: 40px;
+    
+    }
+    .button2{
+        width: 70%;
+        font-size: 23px;
+        margin-left: 18%;
+        z-index: 2;
+        display: block;
+    }
+
+       /* Section 3 */
+
+       .cardWrappers{
+        margin-bottom: 10%;
+        display: block;
+    }
+    .card1{
+        width: 880px;
+        height: 800px;
+        /* margin-bottom: 5%; */
+        margin-left: 8%;
+        /* transition: transform .1s; */
+    
+    }
+
+    .card2{
+        width: 880px;
+        height: 650px;
+        margin-bottom: 5%;
+        margin-left: 8%;
+    
+    }
+    .card1B{
+        font-size: 25px;
+        margin-left: 8%;
+    }
+    .card1A{
+        font-size: 20px;
+        margin-left: 11%;
+    }
+    .h3CardWrapper{
+        font-size: 1.5rem;
+    }
+    .pCardWrapper{
+        font-size: 1rem;  
+        margin-bottom: -5%;  
+    }
+    .button3{
+        margin-left: 10%;
+        width: 80%;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (min-width: 1530px) and (max-width: 2670px) {
+    .logoWeb{
+        width: 150px;
+        height:100px;
+    }
+    .navItemsMargin{
+        margin-left: 1025px;
+
+    }
+    .navItems1{
+        font-size: 50px;
+        width: 100%;
+    }
+    .webName{
+        font-size: 60px;  
+
+    }
+    .button1{
+        width: 200px;
+        font-size: 20px;
+        border-radius: 40px;
+        /* margin-left: 10px; */
+    }
+    .container2{
+        width: 100%;
+        height: 700px;
+        /* margin-top: 2%;     */
+    }
+    .Wrapper{
+        width: 100%;
+        height: 50%;
+        z-index: 999;
+        margin-top: 2%;
+    
+    }
+    .button2{
+        width: 50%;
+        font-size: 43px;
+        margin-left: 25%;
+        z-index: 2;
+        display: block;
+        border-radius: 40px;
+    }
+    .h1Wrapper{
+        padding-top: 70px;
+        /* padding-left: 60px; */
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .h2Wrapper{
+        /* margin-left: 60px; */
+        text-align: center;
+        font-size: 70px;
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: 2%;
+    }
+    .pWrapper{
+        /* margin-left: 60px; */
+        text-align: center;
+        font-size: 50px;
+    }
+    /* .awards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.awardWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.award1{
+    width: 20%;
+    height: 20%;
+    margin-left: 25%;
+}
+.award2{
+    width: 30%;
+    height: 30%;
+    /* margin-left: 10%; 
+}
+.awardStar{
+    margin-left: 30%;
+    width: 200px;
+    height: 200px;
+}
+.h4AwardWrapper{
+    text-align: center;
+    font-size: 55px;
+}
+.pAwardWrapper{
+    text-align: center;
+    font-size: 35px;
+
+} */
+.h2Popular{
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+       /* Section 3 */
+
+       .cardWrappers{
+        margin-bottom: 10%;
+        display: block;
+    }
+    .card1{
+        width: 80%;
+        height: 1300px;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        /* transition: transform .1s; */
+    
+    }
+
+    .card2{
+        width: 80%;
+        height: 1060px;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    
+    }
+    .card1B{
+        font-size: 40px;
+        margin-left: 8%;
+    }
+    .card1A{
+        font-size: 30px;
+        margin-left: 11%;
+    }
+    .h3CardWrapper{
+        font-size: 4.5rem;
+        margin-bottom: 5%;  
+    }
+    .pCardWrapper{
+        font-size: 3.5rem;  
+        margin-bottom: 5%;  
+    }
+    .button3{
+        margin-left: 10%;
+        width: 80%;
+        padding: 30px;
+        font-size: 40px;
+        border-radius: 6px;
+    }
+    mainLastSection{
+        width: 100%;
+        height: 100%;
+        border: 2px solid white;
+        padding:0px;
+    
+    }
+    .pContactWrap{
+        font-size: 58px;
+        text-align: center;
+        padding: 10px;
+    }
+    .contactSection{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-bottom: 5%;
+    
+    }
+    .flexCont{
+        display: flex;
+        margin-left: -10% ;
+    
+    }
+    .flexContNum{
+        margin-left: 0%; 
+         margin-top: 0%;
+         overflow: hidden;
+         font-size: 50px;
+         font-weight: none;
+    }
+    b{
+        font-size: 50px;
+    }
+    .ContactWrapper{
+        width: 80%;
+        height: 100%;
+        /* margin-left: 7%; */
+    }
+    .facebook{
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+    .contactWrapper1{
+        width: 80%;
+        margin-left: 15%;
+    }
+    .contactWrapper2{
+           height: 100%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .locate{
+        margin-left: 1%;
+        margin-top: 6%;
+        font-size: 50px;
+    }
+    .location{
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        margin-left: -26%;
+    }
+        .h1ContactWrapper{
+            margin-top: 4%;
+            margin-left: -10%;
+            font-size: 80px;
+            margin-bottom: 1%;
+        }
+        .h3ContactWrapper{
+            margin-top: 4%;
+            margin-bottom: -4%;
+            font-size: 80px;
+            margin-bottom: 0%;
+        }
+}
